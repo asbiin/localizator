@@ -2,6 +2,18 @@
 
 All notable changes to `amirami/localizator` will be documented in this file.
 
+## 0.14.0 - 2025-03-06
+
+### What's Changed
+
+* Adds Laravel 12 support by @greatislander in https://github.com/amiranagram/localizator/pull/65
+
+### New Contributors
+
+* @greatislander made their first contribution in https://github.com/amiranagram/localizator/pull/65
+
+**Full Changelog**: https://github.com/amiranagram/localizator/compare/v0.13.0-alpha...v0.14.0-alpha
+
 ## 0.13.0 - 2024-03-27
 
 ### What's Changed
