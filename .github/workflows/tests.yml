@@ -16,7 +16,7 @@ jobs:
       matrix:
         os: [ ubuntu-latest ]
         php: [ '8.0', '8.1', '8.2', '8.3', '8.4' ]
-        laravel: [ '8.0', '9.33', '10.0', '11.0', '12' ]
+        laravel: [ '8.0', '9.33', '10.0', '11.0', '12.0' ]
         stability: [ prefer-lowest, prefer-stable ]
         exclude:
           - php: '8.0'
