@@ -22,6 +22,7 @@ Localizator is a small tool for Laravel that gives you the ability to extract un
 | 9.x     | ^0.8        |
 | 10.x    | ^0.12       |
 | 11.x    | ^0.13       |
+| 12.x    | ^0.14       |
 
 ## Installation
 
