@@ -2,6 +2,14 @@
 
 All notable changes to `amirami/localizator` will be documented in this file.
 
+## 1.0.0 - 2026-04-27
+
+### What's Changed
+
+* Support Laravel 13 by @asbiin in https://github.com/asbiin/localizator/pull/2
+
+**Full Changelog**: https://github.com/asbiin/localizator/commits/1.0.0
+
 ## 0.14.0 - 2025-03-06
 
 ### What's Changed
