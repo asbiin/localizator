@@ -1,5 +1,8 @@
 # Localizator
 
+[!IMPORTANT]
+This is a fork from [amiranagram/localizator](https://github.com/amiranagram/localizator) package, as it is not maintained for now...
+
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/amirami/localizator.svg?style=flat-square)](https://packagist.org/packages/amirami/localizator)
 [![Total Downloads](https://img.shields.io/packagist/dt/amirami/localizator.svg?style=flat-square)](https://packagist.org/packages/amirami/localizator)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/amiranagram/localizator/tests.yml?style=flat-square)](https://github.com/amiranagram/localizator/actions?query=workflow%3Atests+branch%3Amaster)
@@ -16,20 +19,14 @@ Localizator is a small tool for Laravel that gives you the ability to extract un
 ## Compatibility
 
 | Laravel | Localizator |
-|---------|-------------|
-| 6.x LTS | 0.3-0.12    |
-| 8.x     | *           |
-| 9.x     | ^0.8        |
-| 10.x    | ^0.12       |
-| 11.x    | ^0.13       |
-| 12.x    | ^0.14       |
+| 13.x    | ^1.0      |
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require --dev amirami/localizator
+composer require --dev asbiin/localizator
 ```
 
 This package makes use of [Laravels package auto-discovery mechanism](https://medium.com/@taylorotwell/package-auto-discovery-in-laravel-5-5-ea9e3ab20518), which means if you don't install dev dependencies in production, it also won't be loaded.
@@ -40,7 +37,7 @@ If for some reason you want manually control this:
   "extra": {
     "laravel": {
       "dont-discover": [
-        "amirami/localizator"
+        "asbiin/localizator"
       ]
     }
   }
