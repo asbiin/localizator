@@ -2,6 +2,14 @@
 
 All notable changes to `amirami/localizator` will be documented in this file.
 
+## 1.1.0 - 2026-04-27
+
+### What's Changed
+
+* Update symfony/finder version by @asbiin in https://github.com/asbiin/localizator/pull/3
+
+**Full Changelog**: https://github.com/asbiin/localizator/compare/1.0.0...1.1.0
+
 ## 1.0.0 - 2026-04-27
 
 ### What's Changed
