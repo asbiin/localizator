@@ -1,9 +1,14 @@
 {
-    "name": "amirami/localizator",
+    "name": "asbiin/localizator",
     "description": "Localizator is a small tool for Laravel that gives you the ability to extract untranslated strings from project files. It works using the artisan command line and the provided localize command.",
-    "homepage": "https://github.com/amiranagram/localizator",
+    "homepage": "https://github.com/asbiin/localizator",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Alexis Saettler",
+            "email": "alexis@saettler.org",
+            "role": "Maintainer"
+        },
         {
             "name": "Amir Rami",
             "email": "me@amirrami.com",
@@ -12,18 +17,18 @@
         }
     ],
     "require": {
-        "php": "^7.2.5|^8.0",
+        "php": "^8.3",
         "ext-json": "*",
-        "illuminate/config": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
-        "illuminate/console": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
-        "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
-        "illuminate/filesystem": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
-        "symfony/finder": "^5.1|^6.0|^7.0"
+        "illuminate/config": "^13.0",
+        "illuminate/console": "^13.0",
+        "illuminate/support": "^13.0",
+        "illuminate/filesystem": "^13.0",
+        "symfony/finder": "^7.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.3.3",
-        "orchestra/testbench": "^6.6|^7.0|^8.0|^9.0|^10.0|^11.0",
-        "phpunit/phpunit": "^9.5|^10.0|^11.0|^12.0"
+        "orchestra/testbench": "^11.0",
+        "phpunit/phpunit": "^11.0|^12.0"
     },
     "autoload": {
         "psr-4": {
