@@ -3,7 +3,7 @@ name: tests
 on:
   push:
     branches:
-      - master
+      - main
       - 0.x
   pull_request:
     types: [opened, synchronize, reopened]
@@ -15,14 +15,8 @@ jobs:
       fail-fast: false
       matrix:
         os: [ ubuntu-latest ]
-        php: [ '8.2', '8.3', '8.4' ]
-        laravel: [ '11.0', '12.0', '13.0' ]
-        stability: [ prefer-lowest, prefer-stable ]
-        exclude:
-          - stability: 'prefer-lowest'
-            laravel: '11.0'
-          - php: '8.2'
-            laravel: '13.0'
+        php: [ '8.4' ]
+        laravel: [ '13.0' ]
 
     name: php-${{ matrix.php }} - laravel-${{ matrix.laravel }} - ${{ matrix.stability }} - ${{ matrix.os }}
 
@@ -45,7 +39,7 @@ jobs:
       - name: Install dependencies
         run: |
           composer require "illuminate/support:^${{ matrix.laravel }}" --no-update
-          composer update --${{ matrix.stability }} --prefer-dist --no-interaction --no-progress
+          composer update --prefer-dist --no-interaction --no-progress
 
       - name: Execute tests
         run: vendor/bin/phpunit --no-coverage
